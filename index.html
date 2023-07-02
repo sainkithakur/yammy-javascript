@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Bootstrap Template Demo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        a{
+            text-decoration: none;
+        }
+    .logo
+    {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    text-decoration: none;
+    }
+    .logo span
+    {
+color: red;
+    }
+    .logo:hover
+    {
+        color: #000;
+    }
+    .bookbtn
+    {
+    font-size: 14px;
+    color: #fff !important;
+    background: #ce1212;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    height: 40px;
+    text-decoration: none;
+
+    }
+    .bookbtntitle
+    {
+    font-size: 14px;
+    color: #fff !important;
+    background: #ce1212;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    height: 50px;
+    font-weight: bold;
+    margin-top: -10px;
+    text-decoration: none;
+    }
+    .navlink
+    {
+        color: #7f7f90;
+        padding-bottom: 10px;
+        font-weight: 600px;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+    }
+   
+
+    .navlink:hover
+    {
+
+        border-bottom: 2px solid #ce1212 !important;
+        color: #000 !important;
+        cursor: pointer !important;
+    }
+   .active
+   {
+    border-bottom: 2px solid #ce1212 !important;
+   }
+
+   .banner
+   {
+    background-color: #eee;
+   }
+   .banner p
+   {
+    color: #4f4f5a;
+    font-weight: 400;
+    margin-bottom: 30px;
+   }
+   .bannertitle
+   {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #37373f;
+    font-family: 'Amatic SC', cursive;
+
+   }
+    .watchvdo i
+    {
+    color: #ce1212;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+    margin-top: 10px;
+    }
+   .watchvdo
+   {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #000;
+    font-weight: 600;
+    
+   }
+
+   .vdotext
+   {
+    margin-top: 5px;
+    position: absolute;
+   }
+   .aboutus h2
+   {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+   }
+   .aboutusp
+   {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Amatic SC', cursive; 
+    text-align: center;
+   }
+   .aboutus p span
+   {
+    color: #ce1212;
+   }
+   .aboutbg
+   {
+    background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/about.jpg);
+    min-height: 500px;
+   }
+
+   .aboutus .call-us
+   {
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    background-color: #fff;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+}
+   .call-us p
+   {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ce1212;
+   }
+   .aboutus i
+   {
+    color: #ce1212;
+   }
+
+
+   .aboutus  .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(var(--color-primary) 50%, rgba(206, 18, 18, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
+    
+}
+
+.bg-grey {
+            background-color: #eee;
+        }
+
+        .why-box {
+            padding: 30px;
+            background: #ce1212;
+            color: #fff;
+        }
+
+        .why-box h1 {
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .why-box p {
+            margin-bottom: 30px;
+        }
+        .more-btn {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.3);
+            padding: 6px 30px 8px 30px;
+            color: #fff;
+            border-radius: 50px;
+            transition: all ease-in-out 0.4s;
+            list-style: none;
+        }
+
+        .more-btn:hover {
+            color: #ce1212;
+            background: #fff;
+        }
+
+
+    </style>
+</head>
+<body>
+<section class="header py-4">
+<div class="container d-flex justify-content-between">
+    <a class="logo">Yummy<span>.</span></a>
+    <nav>
+        <ul class="d-flex list-unstyled">
+            <li class="nav-link">
+                <a href="#" class="active navlink">Home</a></li>
+            <li class="nav-link"><a href="#" class="navlink">About</a></li>
+            <li class="nav-link"><a href="#" class="navlink">Menu</a></li>
+            <li class="nav-link"><a href="#" class="navlink">Events</a></li>
+            <li class="nav-link"><a href="#" class="navlink">Chefs</a></li>
+            <li class="nav-link"><a href="#" class="navlink">Gallery</a></li>
+            <li class="nav-link"><a href="#" class="navlink">Dropdown</a></li>
+            <li class="nav-link"><a href="#" class="navlink">Contact</a></li>
+        </ul>
+    </nav>
+
+    <a class="bookbtn">Book a Table</a>
+</div>
+</section>
+
+<section class="banner py-5">
+    <div class="container">
+        <div class="row justify-content-between ">
+            <div class="col-md-5 d-flex flex-column justify-content-center    ">
+                <h2 class="bannertitle">Enjoy Your Healthy<br>Delicious Food</h2>
+           <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+           <div class="d-flex">
+            <a class="bookbtntitle">Book a Table</a>
+            <a class="watchvdo">
+                <i class="bi bi-play-circle"></i>
+                <span class="vdotext">Watch Video</span>
+            </a>
+           </div>
+            </div>
+        <div class="col-md-5">
+            <img src="image/hero-img.png" class="img-fluid">
+        </div>
+</section>
+<section class="aboutus py-5">
+    <div class="pb-3">
+<h2 class="text-center">ABOUT US</h2>
+<p class="aboutusp">Learn More <span>About Us</span></p>
+</div>
+
+<div class="container">
+<div class="row">
+    <div class="col-md-7 aboutbg position-relative">
+
+        <div class="call-us position-absolute">
+            <h4>Book a Table</h4>
+            <p>+1 5589 55488 55</p>
+        </div>
+    </div>
+    <div class="col-md-5 ps-5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+            
+           </p>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                   </li>
+                   <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                   </li>
+                   <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
+            <p> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+
+            <div class="position-relative">
+            <img src="image/about-2.jpg" class="img-fluid ">
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+        </div>
+        </div>  
+    </div>
+</div>
+</div>
+</section> 
+    <section class="why-choose bg-grey py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="why-box">
+                        <h1>Why Choose Yummy?
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed
+                            et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                        <center> <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                        </center>
+                    </div>
+        <div class="col-md-8">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+
+   
+
+
+
+
+
+
+
+
+    
+    <script src="js/bootstrap.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+</body>
+</html>
